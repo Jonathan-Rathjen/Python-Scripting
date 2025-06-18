@@ -47,13 +47,13 @@
 
 # print(factorial(5))  
 
-def fibonacci(stop,first=0,second=1):
-    print(first)
-    if second >= stop:
-        return first
-    first,second = second,(first + second)
-    return first + fibonacci(stop,first,second)
-fibonacci(10000)
+# def fibonacci(stop,first=0,second=1):
+#     print(first)
+#     if second >= stop:
+#         return first
+#     first,second = second,(first + second)
+#     return first + fibonacci(stop,first,second)
+# fibonacci(10000)
 
 # try except blocks
 # used when you beilieve a block of code could give you an error
